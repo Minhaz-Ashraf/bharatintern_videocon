@@ -1,0 +1,83 @@
+body {
+    background-image: url("./public/zingp.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.Name-Page {
+    width: 400px;
+    padding: 10% 0 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    max-width: 700px;
+    margin: -100px auto 100px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.form input {
+    font-family: "Roboto", "sans-serif";
+    outline: none;
+    background: rgb(225, 224, 224);
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 14px
+    
+}
+.form input::placeholder{
+    font-size: 20px;
+}
+.form input:focus {
+    outline: 1;
+    border-radius: 15px;
+    border-color: #0008ff !important ;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+.form button {
+    font-family: "Roboto", "sans-serif";
+    outline: 0;
+    background: #4A7FEB;
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.form p {
+    font-family: "Roboto", "sans-serif";
+    font-size: 100%;
+    margin: 15px
+}
+
+.form button:hover {
+    background: #00c3ff;
+    border-radius: 15px;
+    
+}
+
+.form .unknown-form {
+    display: none
+}
+
+@media (max-width: 600px) {
+
+    body{
+        background-image: url(./public/ZINGm.png);
+    }
+.form{
+    margin-top: 20px;
+}
+}
